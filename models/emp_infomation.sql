@@ -1,0 +1,1 @@
+select id,concat(first_name,'_',last_name) as fullname from dev_db.bronze employee;
