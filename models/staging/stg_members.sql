@@ -25,3 +25,5 @@ renamed as (
 )
 
 select * from renamed 
+
+--- once we run this code then this will create a View in Silver schema by default
