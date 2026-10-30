@@ -1,7 +1,6 @@
 {{
     config(
-        materialized='table' ---- here we tel to the dbt that create/configure the Table insted of View which created by default
-    )
+        materialized='table' )
 }}
 with customers as (
 select
