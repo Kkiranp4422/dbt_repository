@@ -8,4 +8,6 @@ sources:
       - name: payment
       - name: customer_information
       - name: s_emp
+      - name: t_ticket_track
+      
 # --- this fioe we crwatd for store and take from this file database and schema dynamically 
