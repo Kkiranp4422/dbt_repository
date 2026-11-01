@@ -6,7 +6,7 @@
 {{
     config(
         materialized='table',
-        tags=['claims']
+       
     )
 }}
 -- This model is tagged with 'claims'.

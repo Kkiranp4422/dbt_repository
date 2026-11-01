@@ -1,0 +1,32 @@
+
+version: 2
+
+models:
+  - name: t_cust_info
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: t_payment
+    columns:
+      - name: paymentmethod
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - credit_card
+                  - coupon
+                  - gift_card
+                  - bank_transfer
+
+  - name: t_orders
+    columns:
+      - name: CUSTOMER_ID
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('t_cust_info')
+                field: customer_id
+          - not_null

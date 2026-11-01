@@ -1,1 +1,11 @@
-configconfig
+sources:
+  - name: s1
+    database: dev_db
+    schema: bronze
+    tables:
+      - name: customers
+      - name: orders
+      - name: payment
+      - name: customer_information
+      - name: s_emp
+# --- this fioe we crwatd for store and take from this file database and schema dynamically 
