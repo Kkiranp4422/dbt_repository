@@ -7,4 +7,5 @@ sources:
       - name: orders
       - name: payment
       - name: customer_information
+      - name: s_emp
 # --- this fioe we crwatd for store and take from this file database and schema dynamically 
